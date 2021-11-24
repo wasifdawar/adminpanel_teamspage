@@ -1,0 +1,152 @@
+.card-div {
+  display: flex;
+  justify-content: flex-start;
+}
+.example-card {
+  max-width: 400px;
+  margin-bottom: 8px;
+}
+
+.status {
+  box-sizing: border-box;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  right: auto;
+  top: 17px;
+  left: 128px;
+  padding: 1px 5px;
+}
+
+.section {
+  margin: 10px;
+  padding: 10px;
+}
+.mat-card {
+  padding: 18px;
+  padding-bottom: 0px;
+}
+.mat-card-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mat-card-subtitle,
+.mat-card-content {
+  font-size: 12px;
+}
+.mat-card-title-group {
+  padding: 16px;
+  position: relative;
+}
+.bg-lightGreen {
+  color: #065f46;
+  background-color: aquamarine;
+}
+.bg-coral {
+  color: #991b1b;
+  background-color: rgb(206, 117, 101);
+}
+.container-div {
+  display: flex;
+  justify-content: space-around;
+  height: 2.5rem;
+  .child-divs {
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    padding-top: 0.5rem;
+    &:nth-child(1) {
+      border-right: 1px solid grey;
+    }
+    .img-div {
+      display: inline;
+      margin-right: 0.3rem;
+    }
+  }
+}
+
+//Table
+.table {
+  width: 100%;
+}
+.table-blk {
+  display: flex;
+  align-items: center;
+}
+
+.table-table-img img {
+  width: auto;
+}
+
+.table-table-txt h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.heading {
+  color: #111827;
+  font-size: solid;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+.table-table-txt p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.table-table-txt {
+  padding-left: 12px;
+}
+.table-status p {
+  font-size: 14px;
+  background-color: #d1fae5;
+  display: inline-block;
+  margin: 0;
+  color: #065f46;
+  padding: 2px 16px;
+  border-radius: 25px;
+}
+
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+.user {
+  font-size: 14px;
+}
+mat-toolbar {
+  background: #f7f7f7;
+}
+.user-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  &-icon {
+    height: 18px;
+    font-size: 16px;
+  }
+}
+
+::ng-deep {
+  .mat-menu-content {
+    width: 160px;
+  }
+}
+
+tr.mat-row {
+  height: 65px;
+}
